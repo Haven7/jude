@@ -1,7 +1,10 @@
 server:
   port: 8080
-  context-path: /jude
-  
+#  context-path: /jude
+  servlet:
+    context-path: /jude
+
+
 
 spring:
    datasource:
